@@ -1,9 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="hi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAHIL OFFICIAL</title>
+    <title>sahil official</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            text-align: center;
+            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+        }
+        .container { padding: 25px; }
+        .brand-name { font-size: 28px; font-weight: bold; margin-bottom: 20px; text-transform: uppercase; }
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-bottom: 10px;
+            object-fit: cover;
+            background-color: #222;
+        }
+        .big-number { font-size: 85px; color: #32ff00; font-weight: bold; margin: 10px 0; }
+        .stats-box { font-size: 18px; line-height: 1.8; margin: 20px 0; font-weight: bold; }
+        .join-btn {
+            background-color: #32ff00;
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 18px;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: 900;
+            margin: 25px auto;
+            max-width: 90%;
+            text-transform: uppercase;
+            box-shadow: 0 0 20px rgba(50, 255, 0, 0.5);
+        }
+        .footer-text { font-size: 14px; color: #ccc; margin-top: 10px; }
+    </style>
+</head>
     <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -14,137 +58,55 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1413384907081308');
+fbq('init', '4329055760667698');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1413384907081308&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=4329055760667698&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
-
-        body {
-            background: #0b0e14;
-            /* Stadium background image upload karke yahan naam likhein */
-            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('stadium.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-        }
-
-        .container { width: 90%; max-width: 400px; }
-
-        .brand-name { font-size: 24px; font-weight: bold; margin-bottom: 15px; }
-
-        .logo-circle {
-            width: 140px; height: 140px;
-            border: 3px solid #fff;
-            border-radius: 50%;
-            margin: 0 auto 20px;
-            overflow: hidden;
-            background: #000;
-        }
-        .logo-circle img { width: 100%; height: 100%; object-fit: cover; }
-
-        .timer-text { font-size: 20px; margin-bottom: 5px; }
-        .big-number { font-size: 80px; font-weight: bold; color: #4dfa5e; margin-bottom: 10px; }
-
-        /* "Under-Bahar" Pulse Animation */
-        @keyframes pulse-move {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
-        }
-
-        /* Chamakti Patti (Shine) Animation */
-        @keyframes shine {
-            0% { left: -70%; }
-            20% { left: 120%; }
-            100% { left: 120%; }
-        }
-
-        .join-btn {
-            display: block;
-            background: #00f2ff; /* Video jaisa Cyan blue color */
-            color: black;
-            text-decoration: none;
-            font-weight: 900;
-            padding: 20px;
-            border-radius: 12px;
-            font-size: 20px;
-            margin: 20px 0;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 0 20px rgba(0, 242, 255, 0.6);
-            /* Animation yahan lagaya gaya hai */
-            animation: pulse-move 1.5s ease-in-out infinite;
-        }
-
-        .join-btn::after {
-            content: "";
-            position: absolute;
-            top: -50%;
-            left: -70%;
-            width: 30%;
-            height: 200%;
-            background: rgba(255, 255, 255, 0.6);
-            transform: rotate(25deg);
-            animation: shine 3s infinite;
-        }
-
-        .stats-box { font-size: 14px; line-height: 1.8; margin-bottom: 20px; font-weight: bold; }
-        .footer-txt { font-size: 12px; color: #ccc; }
-    </style>
-</head>
 <body>
 
-    <div class="container">
-        <div class="brand-name">SAHIL OFFICIAL 🏆</div>
+<div class="container">
+    <div class="brand-name">SAHIL OFFICIAL </div>
 
-        <div class="logo-circle">
-            <img src="logo.png" alt="Arjun Bhai Logo">
-        </div>
+    <img src="logo.png" alt="Hyper Logo" class="profile-pic">
 
-        <div class="timer-text">Hurry Up <span id="countdown">15</span> Seconds Left</div>
-        <div class="big-number">100%</div>
+    <div class="big-number" id="countdown">15</div>
 
-        <div class="stats-box">
-            <div>✅ 90/88 MATCH PASSED RECORD 🏆</div>
-            <div>✅ TRUSTED CRICKET ADVISOR 🏆</div>
-            <div>CRICKET BATTING KI DUNIYA KA KING 👑</div>
-        </div>
-        <a href="https://t.me/+g7f0jOVIf0AxMGU1" class="join-btn">
-            JOIN SAHIL OFFICIAL ®<br>TELEGRAM
-        </a>
-
-        <div class="footer-txt">FREE JOINING ENDS IN... <span id="footer-count">15</span></div>
+    <div class="stats-box">
+        <div>✅ 90/88 MATCH PASSED RECORD 🏆</div>
+        <div style="font-size: 14px; margin: 5px 0;">TODAY'S SCORE</div>
+        <div>✅ TRUSTED CRICKET ADVISOR 🏆</div>
+        <div>✅ 5/5 EXPERT CRICKET TIPS TODAY</div>
+        <div>UPCOMING LEAGUE ANALYSIS 🏆</div>
     </div>
+<div style="text-align: center; margin-bottom: 15px;">
+    <div style="display: inline-block; padding: 6px 15px; border-radius: 5px; background: rgba(255,0,0,0.1); border: 1px solid #ff0000;">
+        <span style="color: #ff4d4d; font-weight: bold; font-size: 13px;">📢 PAID PROMOTION: </span>
+        <a href="https://t.me/SAHIL_SIR01" style="color: #fff; text-decoration: none; font-weight: bold; font-size: 14px;">@SAHIL_SIR01</a>
+    </div>
+</div>
+    <a href="https://t.me/+Rl-Mee5oJ2Q5YjY9" class="join-btn" onclick="fbq('track', 'Lead');">
+        JOIN SAHIL OFFICIAL <br> CHANNEL 🚀
+    </a>
 
-    <script>
-        let timeLeft = 15;
-        const countdownEl = document.getElementById('countdown');
-        const footerCountEl = document.getElementById('footer-count');
+    <div class="footer-text">
+        FREE JOINING ENDS IN... <span style="color: #32ff00;" id="footer-count">15</span>
+    </div>
+</div>
 
-        setInterval(() => {
-            if(timeLeft > 0) {
-                timeLeft--;
-                countdownEl.innerText = timeLeft;
-                footerCountEl.innerText = timeLeft;
-            }
-        }, 1000);
-    </script>
 <script>
-  // Button click track karne ke liye
-  document.querySelector('.join-btn').addEventListener('click', function() {
-    fbq('track', 'Lead'); 
-    console.log('Lead Event sent to Facebook');
-  });
+    let count = 15;
+    const countElement = document.getElementById('countdown');
+    const footerCount = document.getElementById('footer-count');
+    setInterval(() => {
+        if(count > 1) count--;
+        else count = 15;
+        countElement.innerText = count;
+        footerCount.innerText = count;
+    }, 1000);
 </script>
+
 </body>
 </html>
